@@ -5,6 +5,10 @@ compiler:
   - gcc
 
 os: linux
+
+arch:
+    - ppc64le    
+
 sudo: required
 services: docker
 env:
